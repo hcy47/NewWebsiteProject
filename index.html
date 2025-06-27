@@ -12,43 +12,15 @@
     />
     <link rel="stylesheet" href="./style.css" />
     <style>
-      /* main area  */
-      main {
-        grid-area: main;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        margin: 10px;
-      }
+    
 
       aside {
         grid-area: aside;
         border: 2px solid red;
       }
-
-      footer {
-        grid-area: footer;
-        border: 2px solid chocolate;
-        grid-template-columns: 20vw 20vw 20vw 20vw;
-        display: grid;
-        gap: 10px;
-        margin: auto;
-      }
-      .box {
-        border: 3px solid black;
-      }
-      .foot-box {
-        border: 2px solid red;
-      }
-
-      /* header styles */
-      header {
-        grid-area: header;
-        border: 2px solid yellow;
-      }
-      .container-fluid {
-        background-color: #e3f2fd;
-      }
+     
+     
+    
     </style>
   </head>
   <body>
@@ -58,17 +30,8 @@
 <!-- nav bar section  -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar scroll</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarScroll"
-              aria-controls="navbarScroll"
-              aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+            <a class="navbar-brand" href="#">M.C.Y</a>
+            <button class="navbar-toggler"type="button"data-bs-toggle="collapse"data-bs-target="#navbarScroll"aria-controls="navbarScroll"aria-expanded="false"aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarScroll">
               <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"style="--bs-scroll-height: 100px">
                 <li class="nav-item">
@@ -102,7 +65,9 @@
         <div class="box card-4"></div>
       </main>
 
-      <aside></aside>
+      <aside>
+        <h5 class="trend">Trending Stories</h5>
+      </aside>
 
       <footer>
         <div class="foot-box">column1</div>

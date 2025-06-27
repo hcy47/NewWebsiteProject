@@ -7,12 +7,56 @@
           "main main aside"
           "footer footer footer";
         gap: 15px;
-        grid-template-rows: 1fr 3fr 1fr;
+        grid-template-rows: 7vh 3fr 1fr;
         grid-template-columns:2fr 1fr 1fr;
         margin: 10px;
+      }
+       /* header styles */
+      header {
+        grid-area: header;
+      }
+        /* main area  */
+      main {
+        grid-area: main;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin: 10px;
+      }
+        .box {
+        border: 3px solid black;
+      }
+      .foot-box {
+        border: 2px solid red;
+      }
+       footer {
+        grid-area: footer;
+        border: 2px solid chocolate;
+        grid-template-columns: 20vw 20vw 20vw 20vw;
+        display: grid;
+        gap: 5vw;
+        margin: auto;
       }
        * {
         /* border: 1px solid black; */
         border-radius: 5px;
         /* background-color: none; */
+      }
+      /* navBar styling  */
+       .container-fluid {
+        background-color: #e3f2fd;
+        position: fixed;
+        padding-right:2vw;
+        margin-top: 2vh;
+        /* height: 8vh; */
+      }
+       .navbar-brand{
+        font-weight: 900;
+      }
+
+
+/* footer area  */
+ .trend{
+        display: flex;
+        justify-content: center;
       }
