@@ -103,9 +103,9 @@ aside {
 
 
  /* footer are  */
-.foot-box {
+/* .foot-box {
   border: 2px solid red;
-}
+} */
 
 
 footer {
@@ -117,4 +117,13 @@ footer {
   margin: auto;
   height: 20vh;
 }
-
+ /* linked in button  */
+.linkedIn-button{
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border-radius: 2px;
+  margin-left: 3px;
+  cursor: pointer;
+  display:block;
+  width:41px;
+}
