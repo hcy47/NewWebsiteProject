@@ -93,7 +93,7 @@ main {
       }
 .box:hover{
   color: burlywood;
-  background-image: none;
+  background-image:none;
 
 }
 .linkedIn-button:hover{
@@ -147,3 +147,9 @@ footer {
   display:block;
   width:41px;
 }
+ .contact-button:hover{
+  background-color:chartreuse;
+ }
+ .newsletter-button:hover{
+  background-color: chartreuse;
+ }
