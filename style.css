@@ -49,6 +49,15 @@ main {
   border-radius: 5px;
 }
 
+ .nav-item:hover{
+  cursor:pointer;
+  background-color: chartreuse;
+ }
+
+.aside-li:hover{
+  background-color: chartreuse;
+  color: chocolate;
+ }
 /* background imgs  */
 .card-1{
         background-image: url(./assets/eb92eb90-52e8-11f0-83c4-6fc6e37ac2c6.jpg.webp);
@@ -77,10 +86,21 @@ main {
         background-size: cover;
         background-position: center;
       }
+
       .box{
         color: chartreuse;
+        cursor: pointer;
       }
+.box:hover{
+  color: burlywood;
+  background-image: none;
 
+}
+.linkedIn-button:hover{
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
+  color: red;
+  background-color: blue;
+}
 
 
 /* aside area  */
